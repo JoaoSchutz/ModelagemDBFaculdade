@@ -7,6 +7,7 @@ Para a criação do modelo lógico e modelo conceitual foi utilizado o software 
 
 Linguagem SQL para implementação:
 
+-------------------------------------------------------------------------------------------------------
 CREATE DATABASE db_Faculdade;
 USE db_Faculdade;
 
@@ -142,3 +143,4 @@ CREATE TABLE Endereco_Aluno (
  CONSTRAINT fk_Cod_RA_End FOREIGN KEY(RA) REFERENCES Aluno (RA),
  CONSTRAINT fk_Cod_Tipo_Lougradouro FOREIGN KEY(Cod_Tipo_Logradouro) REFERENCES Tipo_Logradouro (Cod_Tipo_Logradouro)
 );
+----------------------------------------------------------------------------------------
